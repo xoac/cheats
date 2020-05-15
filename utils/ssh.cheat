@@ -1,0 +1,4 @@
+%ssh, network
+
+# Ignore Key checking with proxy ProxyJump for last item
+ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o ProxyJump=<jump> <last>
